@@ -54,7 +54,19 @@ class App extends Component {
     this.setState({ count: this.state.count - 1 });
   };
 
+  // componentDidMount() {
+  //   console.log('componentDidMount');
+  //   // fetch()
+  // }
+
+  // componentDidUpdate() {
+  //   console.log('componentDidUpdate');
+  // }
+
+  // componentWillUnmount() {}
+
   render() {
+    console.log('render', this.state.count);
     return (
       <div>
         Click on Me !!!
